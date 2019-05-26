@@ -73,7 +73,7 @@ def can_be_found_updated_and_saved
   m = Movie.find_by(title: "Awesome Flick")
   m = Movie.update(title: "Even Awesomer Flick")
   m.save
-  Movie
+  m
   __
   __
 end
